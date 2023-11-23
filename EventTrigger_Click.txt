@@ -1,0 +1,16 @@
+<Window x:Class="Test_MVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test_MVVM"
+		xmlns:Duc="clr-namespace:ViewModel;assembly=ViewModel"
+		xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        mc:Ignorable="d"
+		x:Name="MainW"
+		WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Button Content="Mở Window" Command="{Binding OpenWindowCommand}" CommandParameter="{Binding ElementName=MainW}"></Button>
+    </StackPanel> 
+</Window>

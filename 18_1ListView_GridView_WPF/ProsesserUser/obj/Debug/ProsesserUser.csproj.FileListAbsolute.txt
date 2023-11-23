@@ -1,0 +1,16 @@
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18_1ListView_GridView_WPF\ProsesserUser\bin\Debug\ProsesserUser.exe.config
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18_1ListView_GridView_WPF\ProsesserUser\bin\Debug\ProsesserUser.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18_1ListView_GridView_WPF\ProsesserUser\bin\Debug\ProsesserUser.pdb
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18_1ListView_GridView_WPF\ProsesserUser\bin\Debug\ListViewGridView_Model.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18_1ListView_GridView_WPF\ProsesserUser\bin\Debug\ListViewGridView_Model.pdb
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18_1ListView_GridView_WPF\ProsesserUser\obj\Debug\ProsesserUser.csprojResolveAssemblyReference.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18_1ListView_GridView_WPF\ProsesserUser\obj\Debug\MainWindow.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18_1ListView_GridView_WPF\ProsesserUser\obj\Debug\App.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18_1ListView_GridView_WPF\ProsesserUser\obj\Debug\ProsesserUser_MarkupCompile.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18_1ListView_GridView_WPF\ProsesserUser\obj\Debug\ProsesserUser_MarkupCompile.lref
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18_1ListView_GridView_WPF\ProsesserUser\obj\Debug\MainWindow.baml
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18_1ListView_GridView_WPF\ProsesserUser\obj\Debug\ProsesserUser.g.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18_1ListView_GridView_WPF\ProsesserUser\obj\Debug\ProsesserUser.Properties.Resources.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18_1ListView_GridView_WPF\ProsesserUser\obj\Debug\ProsesserUser.csproj.GenerateResource.Cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18_1ListView_GridView_WPF\ProsesserUser\obj\Debug\ProsesserUser.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18_1ListView_GridView_WPF\ProsesserUser\obj\Debug\ProsesserUser.pdb

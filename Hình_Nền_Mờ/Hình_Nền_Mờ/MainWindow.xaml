@@ -1,0 +1,27 @@
+﻿<Window x:Class="Hình_Nền_Mờ.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hình_Nền_Mờ"
+        mc:Ignorable="d"
+
+
+    Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <VisualBrush x:Key="BackgroundBrush">
+            <VisualBrush.Visual>
+                <Image Source="/anh/サンプル.jpg" Opacity="0.25" />
+            </VisualBrush.Visual>
+        </VisualBrush>
+    </Window.Resources>
+    <WrapPanel Background="{StaticResource BackgroundBrush}">
+        <Button Content="button1" Width="50" Height="50"></Button>
+        <Button Content="button1" Width="50" Height="50"></Button>
+        <TextBlock Text="absjdfgajshdfgaj"></TextBlock>
+        <TextBox Text="àhiahfasjfhjhjhjfhjfjhkajkfha"></TextBox>
+        <Grid Height="100" Width="100">
+            
+        </Grid>
+    </WrapPanel>
+</Window>

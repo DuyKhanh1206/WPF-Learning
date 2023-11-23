@@ -1,0 +1,14 @@
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.3_ListView_Sorting_WPF\18.3_ListView_Sorting_WPF\bin\Debug\18.3_ListView_Sorting_WPF.exe.config
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.3_ListView_Sorting_WPF\18.3_ListView_Sorting_WPF\bin\Debug\18.3_ListView_Sorting_WPF.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.3_ListView_Sorting_WPF\18.3_ListView_Sorting_WPF\bin\Debug\18.3_ListView_Sorting_WPF.pdb
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.3_ListView_Sorting_WPF\18.3_ListView_Sorting_WPF\obj\Debug\18.3_ListView_Sorting_WPF.csprojResolveAssemblyReference.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.3_ListView_Sorting_WPF\18.3_ListView_Sorting_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.3_ListView_Sorting_WPF\18.3_ListView_Sorting_WPF\obj\Debug\App.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.3_ListView_Sorting_WPF\18.3_ListView_Sorting_WPF\obj\Debug\18.3_ListView_Sorting_WPF_MarkupCompile.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.3_ListView_Sorting_WPF\18.3_ListView_Sorting_WPF\obj\Debug\18.3_ListView_Sorting_WPF_MarkupCompile.lref
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.3_ListView_Sorting_WPF\18.3_ListView_Sorting_WPF\obj\Debug\MainWindow.baml
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.3_ListView_Sorting_WPF\18.3_ListView_Sorting_WPF\obj\Debug\18.3_ListView_Sorting_WPF.g.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.3_ListView_Sorting_WPF\18.3_ListView_Sorting_WPF\obj\Debug\_18._3_ListView_Sorting_WPF.Properties.Resources.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.3_ListView_Sorting_WPF\18.3_ListView_Sorting_WPF\obj\Debug\18.3_ListView_Sorting_WPF.csproj.GenerateResource.Cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.3_ListView_Sorting_WPF\18.3_ListView_Sorting_WPF\obj\Debug\18.3_ListView_Sorting_WPF.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.3_ListView_Sorting_WPF\18.3_ListView_Sorting_WPF\obj\Debug\18.3_ListView_Sorting_WPF.pdb

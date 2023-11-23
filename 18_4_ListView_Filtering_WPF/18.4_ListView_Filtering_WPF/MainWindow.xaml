@@ -1,0 +1,57 @@
+﻿<Window x:Class="_18._4_ListView_Filtering_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_18._4_ListView_Filtering_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox x:Name="txtSeach"  Height="25" TextChanged="txtSeach_TextChanged"></TextBox>
+        <ListView x:Name="lsvMain" Margin="10">
+            
+            <!--Căn chỉnh cho Header căn giữa-->
+            <ListView.Resources>
+                <Style TargetType="{x:Type GridViewColumnHeader}">
+                    <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+                </Style>              
+            </ListView.Resources>
+            <ListView.View>
+                <GridView>
+                    
+                    <!--Căn chỉnh cho list hiển thị căn giữa-->
+                    <GridViewColumn Header="STT" Width="40">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Grid Width="30">
+                                            <TextBlock Text="{Binding Stt}" HorizontalAlignment="Center"></TextBlock>
+                                        </Grid>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    
+                    
+                    <!--List hiển thị mặc định-->
+                    <GridViewColumn  Header=" Name" Width="200" DisplayMemberBinding="{Binding Name}"></GridViewColumn>
+                    
+                    
+                    
+                    
+                    <GridViewColumn Header="Mail" Width="240" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Grid Width="240">
+                                    <TextBlock Text="{Binding Mail}" HorizontalAlignment="Center"></TextBlock>
+                                </Grid>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    
+                    
+                    
+                    
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </StackPanel>
+</Window>

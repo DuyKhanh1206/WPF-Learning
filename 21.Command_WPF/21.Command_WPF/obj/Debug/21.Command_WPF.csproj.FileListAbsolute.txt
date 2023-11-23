@@ -1,0 +1,14 @@
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\21.Command_WPF\21.Command_WPF\bin\Debug\21.Command_WPF.exe.config
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\21.Command_WPF\21.Command_WPF\bin\Debug\21.Command_WPF.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\21.Command_WPF\21.Command_WPF\bin\Debug\21.Command_WPF.pdb
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\21.Command_WPF\21.Command_WPF\obj\Debug\21.Command_WPF.csprojResolveAssemblyReference.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\21.Command_WPF\21.Command_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\21.Command_WPF\21.Command_WPF\obj\Debug\App.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\21.Command_WPF\21.Command_WPF\obj\Debug\21.Command_WPF_MarkupCompile.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\21.Command_WPF\21.Command_WPF\obj\Debug\21.Command_WPF_MarkupCompile.lref
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\21.Command_WPF\21.Command_WPF\obj\Debug\MainWindow.baml
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\21.Command_WPF\21.Command_WPF\obj\Debug\21.Command_WPF.g.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\21.Command_WPF\21.Command_WPF\obj\Debug\_21.Command_WPF.Properties.Resources.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\21.Command_WPF\21.Command_WPF\obj\Debug\21.Command_WPF.csproj.GenerateResource.Cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\21.Command_WPF\21.Command_WPF\obj\Debug\21.Command_WPF.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\21.Command_WPF\21.Command_WPF\obj\Debug\21.Command_WPF.pdb

@@ -1,0 +1,28 @@
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Grid_button_design_basic\Grid_button_design_basic\bin\Debug\Grid_button_design_basic.exe.config
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Grid_button_design_basic\Grid_button_design_basic\bin\Debug\Grid_button_design_basic.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Grid_button_design_basic\Grid_button_design_basic\bin\Debug\Grid_button_design_basic.pdb
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Grid_button_design_basic\Grid_button_design_basic\obj\Debug\Grid_button_design_basic.csprojResolveAssemblyReference.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Grid_button_design_basic\Grid_button_design_basic\obj\Debug\MainWindow.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Grid_button_design_basic\Grid_button_design_basic\obj\Debug\App.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Grid_button_design_basic\Grid_button_design_basic\obj\Debug\Grid_button_design_basic_MarkupCompile.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Grid_button_design_basic\Grid_button_design_basic\obj\Debug\Grid_button_design_basic_MarkupCompile.lref
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Grid_button_design_basic\Grid_button_design_basic\obj\Debug\MainWindow.baml
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Grid_button_design_basic\Grid_button_design_basic\obj\Debug\Grid_button_design_basic.g.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Grid_button_design_basic\Grid_button_design_basic\obj\Debug\Grid_button_design_basic.Properties.Resources.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Grid_button_design_basic\Grid_button_design_basic\obj\Debug\Grid_button_design_basic.csproj.GenerateResource.Cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Grid_button_design_basic\Grid_button_design_basic\obj\Debug\Grid_button_design_basic.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Grid_button_design_basic\Grid_button_design_basic\obj\Debug\Grid_button_design_basic.pdb
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\1_1 Grid_button_design_basic\Grid_button_design_basic\bin\Debug\Grid_button_design_basic.exe.config
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\1_1 Grid_button_design_basic\Grid_button_design_basic\obj\Debug\Grid_button_design_basic.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\1_1 Grid_button_design_basic\Grid_button_design_basic\obj\Debug\Grid_button_design_basic.pdb
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\1_1 Grid_button_design_basic\Grid_button_design_basic\bin\Debug\Grid_button_design_basic.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\1_1 Grid_button_design_basic\Grid_button_design_basic\bin\Debug\Grid_button_design_basic.pdb
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\1_1 Grid_button_design_basic\Grid_button_design_basic\obj\Debug\Grid_button_design_basic.csprojResolveAssemblyReference.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\1_1 Grid_button_design_basic\Grid_button_design_basic\obj\Debug\MainWindow.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\1_1 Grid_button_design_basic\Grid_button_design_basic\obj\Debug\App.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\1_1 Grid_button_design_basic\Grid_button_design_basic\obj\Debug\Grid_button_design_basic_MarkupCompile.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\1_1 Grid_button_design_basic\Grid_button_design_basic\obj\Debug\Grid_button_design_basic_MarkupCompile.lref
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\1_1 Grid_button_design_basic\Grid_button_design_basic\obj\Debug\MainWindow.baml
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\1_1 Grid_button_design_basic\Grid_button_design_basic\obj\Debug\Grid_button_design_basic.g.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\1_1 Grid_button_design_basic\Grid_button_design_basic\obj\Debug\Grid_button_design_basic.Properties.Resources.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\1_1 Grid_button_design_basic\Grid_button_design_basic\obj\Debug\Grid_button_design_basic.csproj.GenerateResource.Cache

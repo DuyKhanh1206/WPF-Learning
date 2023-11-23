@@ -1,0 +1,97 @@
+﻿<Window x:Class="Grid_button_design_basic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Grid_button_design_basic"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="150">
+    
+    <!--__________CÁC CÁCH CHÈN BUTTON VÀ CHÈN BODER VÀO TRONG 1 Ô______________-->
+    
+    
+    
+    <!--<Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition ></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Content="button1"></Button>
+                <Button Grid.Row="0" Content="button1"></Button>
+                <Button Grid.Row="2" Content="button1"></Button>
+                <Button Grid.Row="3" Content="button1"></Button>
+                <Button Grid.Row="5" Content="button1"></Button>
+                <Button Grid.Row="6" Content="button1"></Button>
+                <Button Grid.Row="0" Content="button1"></Button>
+                <Button Grid.Row="8" Content="button1"></Button>
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Content="button1"></Button>
+                <Button Grid.Row="1" Content="button1"></Button>
+            </Grid>
+
+        </Grid>-->
+
+
+    <!--__________CÁC CÁCH CHÈN BUTTON VÀ CHÈN BODER VÀO TRONG 1 Ô______________-->
+
+
+
+    <Grid>
+        <Grid.Resources>
+            <Style x:Key="styleBoder" TargetType="Border">
+                <Setter Property="BorderBrush" Value="Blue"></Setter>
+                <Setter Property="BorderThickness" Value="0.5"></Setter>
+            </Style>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <UniformGrid Rows="2" Columns="4" Grid.Row="1">
+
+            
+            <Border Style="{StaticResource styleBoder}">
+                
+            </Border>
+
+            
+            <Border Style="{StaticResource styleBoder}">
+               
+            </Border>
+
+           
+            <Border Style="{StaticResource styleBoder}">
+                
+            </Border>
+            <Border Style="{StaticResource styleBoder}">
+              
+            </Border>
+            <Border Style="{StaticResource styleBoder}">
+               
+            </Border>
+            <Border Style="{StaticResource styleBoder}">
+              
+            </Border>
+
+        </UniformGrid>
+    </Grid>
+</Window>

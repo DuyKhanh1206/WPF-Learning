@@ -1,0 +1,1 @@
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\7.Border_WPF\7.Border_WPF\bin\Debug\7.Border_WPF.exe.config

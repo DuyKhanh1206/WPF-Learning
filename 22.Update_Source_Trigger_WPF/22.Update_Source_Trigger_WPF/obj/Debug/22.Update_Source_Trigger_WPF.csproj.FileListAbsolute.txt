@@ -1,0 +1,14 @@
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\22.Update_Source_Trigger_WPF\22.Update_Source_Trigger_WPF\bin\Debug\22.Update_Source_Trigger_WPF.exe.config
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\22.Update_Source_Trigger_WPF\22.Update_Source_Trigger_WPF\bin\Debug\22.Update_Source_Trigger_WPF.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\22.Update_Source_Trigger_WPF\22.Update_Source_Trigger_WPF\bin\Debug\22.Update_Source_Trigger_WPF.pdb
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\22.Update_Source_Trigger_WPF\22.Update_Source_Trigger_WPF\obj\Debug\22.Update_Source_Trigger_WPF.csprojResolveAssemblyReference.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\22.Update_Source_Trigger_WPF\22.Update_Source_Trigger_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\22.Update_Source_Trigger_WPF\22.Update_Source_Trigger_WPF\obj\Debug\App.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\22.Update_Source_Trigger_WPF\22.Update_Source_Trigger_WPF\obj\Debug\22.Update_Source_Trigger_WPF_MarkupCompile.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\22.Update_Source_Trigger_WPF\22.Update_Source_Trigger_WPF\obj\Debug\22.Update_Source_Trigger_WPF_MarkupCompile.lref
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\22.Update_Source_Trigger_WPF\22.Update_Source_Trigger_WPF\obj\Debug\MainWindow.baml
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\22.Update_Source_Trigger_WPF\22.Update_Source_Trigger_WPF\obj\Debug\22.Update_Source_Trigger_WPF.g.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\22.Update_Source_Trigger_WPF\22.Update_Source_Trigger_WPF\obj\Debug\_22.Update_Source_Trigger_WPF.Properties.Resources.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\22.Update_Source_Trigger_WPF\22.Update_Source_Trigger_WPF\obj\Debug\22.Update_Source_Trigger_WPF.csproj.GenerateResource.Cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\22.Update_Source_Trigger_WPF\22.Update_Source_Trigger_WPF\obj\Debug\22.Update_Source_Trigger_WPF.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\22.Update_Source_Trigger_WPF\22.Update_Source_Trigger_WPF\obj\Debug\22.Update_Source_Trigger_WPF.pdb

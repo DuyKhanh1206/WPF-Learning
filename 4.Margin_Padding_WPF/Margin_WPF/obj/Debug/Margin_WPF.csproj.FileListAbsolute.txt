@@ -1,0 +1,2 @@
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Margin_WPF\Margin_WPF\bin\Debug\Margin_WPF.exe.config
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\4.Margin_Padding_WPF\Margin_WPF\bin\Debug\Margin_WPF.exe.config

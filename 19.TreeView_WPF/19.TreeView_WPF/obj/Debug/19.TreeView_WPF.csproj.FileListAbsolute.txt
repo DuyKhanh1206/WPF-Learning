@@ -1,0 +1,15 @@
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\19.TreeView_WPF\19.TreeView_WPF\bin\Debug\19.TreeView_WPF.exe.config
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\19.TreeView_WPF\19.TreeView_WPF\obj\Debug\19.TreeView_WPF.csprojResolveAssemblyReference.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\19.TreeView_WPF\19.TreeView_WPF\obj\Debug\App.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\19.TreeView_WPF\19.TreeView_WPF\obj\Debug\19.TreeView_WPF_MarkupCompile.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\19.TreeView_WPF\19.TreeView_WPF\bin\Debug\19.TreeView_WPF.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\19.TreeView_WPF\19.TreeView_WPF\bin\Debug\19.TreeView_WPF.pdb
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\19.TreeView_WPF\19.TreeView_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\19.TreeView_WPF\19.TreeView_WPF\obj\Debug\19.TreeView_WPF_MarkupCompile.lref
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\19.TreeView_WPF\19.TreeView_WPF\obj\Debug\MainWindow.baml
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\19.TreeView_WPF\19.TreeView_WPF\obj\Debug\19.TreeView_WPF.g.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\19.TreeView_WPF\19.TreeView_WPF\obj\Debug\_19.TreeView_WPF.Properties.Resources.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\19.TreeView_WPF\19.TreeView_WPF\obj\Debug\19.TreeView_WPF.csproj.GenerateResource.Cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\19.TreeView_WPF\19.TreeView_WPF\obj\Debug\19.TreeView_WPF.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\19.TreeView_WPF\19.TreeView_WPF\obj\Debug\19.TreeView_WPF.pdb
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\19.TreeView_WPF\19.TreeView_WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs

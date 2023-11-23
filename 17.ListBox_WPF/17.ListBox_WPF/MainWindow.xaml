@@ -1,0 +1,34 @@
+﻿<Window x:Class="_17.ListBox_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_17.ListBox_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+
+        <ComboBox x:Name="cblist">
+            
+        </ComboBox>
+        <ListBox x:Name="lstBox"> 
+            
+        </ListBox>
+        <ListBox>
+            <StackPanel>
+                <WrapPanel  Margin="5">
+                    <CheckBox></CheckBox>
+                    <TextBlock Text="câu hỏi 1"></TextBlock>
+                </WrapPanel>
+                <WrapPanel Margin="5">
+                    <CheckBox></CheckBox>
+                    <TextBlock Text="câu hỏi 2"></TextBlock>
+                </WrapPanel >
+                <WrapPanel  Margin="5">
+                    <CheckBox></CheckBox>
+                    <TextBlock Text="câu hỏi 3"></TextBlock>
+                </WrapPanel>
+            </StackPanel>
+        </ListBox>
+    </StackPanel>
+</Window>

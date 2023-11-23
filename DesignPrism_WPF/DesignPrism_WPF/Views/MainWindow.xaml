@@ -1,0 +1,73 @@
+﻿<Window x:Class="DesignPrism_WPF.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesignPrism_WPF.Views"
+        mc:Ignorable="d" 
+        
+        
+         xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"        
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"  
+        
+        ResizeMode="NoResize"
+        WindowStyle="None"         
+        
+        xmlns:uc="clr-namespace:DesignPrism_WPF.User_Control"
+        WindowStartupLocation="CenterScreen"
+        Name="frmMain_Window"
+        Title="ホーム画面" Height="700" Width="900">
+
+    
+   
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadCommand}" CommandParameter="{Binding ElementName=frmMain_Window}"></i:InvokeCommandAction>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--Control Bar-->
+        <Grid Grid.Row="0">           
+            <uc:BarUs Tag="{Binding Title , ElementName=frmMain_Window}"></uc:BarUs>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="8*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <!--Phần thân chính-->
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1.2*"></RowDefinition>
+                    <RowDefinition Height="11*"></RowDefinition>
+                    <RowDefinition Height="0.7*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <!--Phần Header-->
+                <Grid Grid.Row="0">
+                    <uc:HeadUs></uc:HeadUs>
+                </Grid>
+                <!--Phần Frame-->
+                <Grid Grid.Row="1">
+                   <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+                </Grid>
+                <!--Phần CheckConnect-->
+                <Grid Grid.Row="2">
+                    <uc:CheckConnectUs HorizontalAlignment="Stretch" ></uc:CheckConnectUs>
+                </Grid>
+            </Grid>
+            <!--Phần User Control All Button-->
+            <Grid Grid.Column="1" Margin="3" >
+                <!--<uc:AllButtonUs  ></uc:AllButtonUs>-->
+                <local:AllButtonUs></local:AllButtonUs>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,9 @@
+﻿<Application x:Class="Binding_Basic_WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Binding_Basic_WPF"
+             StartupUri="LightControl.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

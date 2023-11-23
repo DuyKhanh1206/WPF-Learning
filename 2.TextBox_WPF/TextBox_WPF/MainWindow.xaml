@@ -1,0 +1,33 @@
+﻿<Window x:Class="TextBox_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextBox_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="txt1" 
+                 Text="nhập vào đây"
+                 Width="175"
+                 Height="75" Margin="0,0,350,275"
+                 IsEnabled="True"
+                 ></TextBox>
+
+        <Button 
+                x:Name="btnBinding"
+                Width="75"
+                Height="25"
+                Margin="175,0,267,294"
+                Background="Yellow"
+                Foreground="Red" Click="btn1_Click" 
+                Content="{Binding Path=Text,ElementName=txt1}">           
+                </Button>
+              
+        <TextBox x:Name="txtBinding2" VerticalAlignment="Top" Text="{Binding Path=Text,ElementName=txt1 , Mode=TwoWay}" Margin="0,61,0,0"></TextBox>
+
+        <TextBox x:Name="txtBinding3" VerticalAlignment="Center" Text="{Binding Path=Text.Length, ElementName=txt1, Mode= OneWay}"></TextBox>
+        <TextBox x:Name="txtBinding1" VerticalAlignment="Bottom" Text="{Binding Path=Content,ElementName=btnBinding,Mode=OneWay}"></TextBox>
+
+    </Grid>
+</Window>

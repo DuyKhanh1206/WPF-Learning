@@ -1,0 +1,97 @@
+﻿<Window x:Class="_18._1ListView_GridView_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_18._1ListView_GridView_WPF"
+        mc:Ignorable="d"
+        
+        xmlns:viewmodel ="clr-namespace:ListViewGridView_ViewModel;assembly=ListViewGridView_ViewModel" 
+        
+        
+        Title="MainWindow" Height="350" Width="525">
+
+    <Window.DataContext>
+        <viewmodel:User_ViewModel></viewmodel:User_ViewModel>
+    </Window.DataContext>
+    
+    <!--<Grid>
+        <ListView x:Name="lsvMain" Margin="10">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Stt" Width="40" DisplayMemberBinding="{Binding Stt}"></GridViewColumn>
+                    <GridViewColumn Header="Name" Width="200" DisplayMemberBinding="{Binding Name}"></GridViewColumn>
+                    <GridViewColumn Header="Mail" Width="250" DisplayMemberBinding="{Binding Mail}"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>-->
+
+    <StackPanel>
+        <ListView x:Name="lsvMain" Margin="10" ItemsSource="{Binding Data}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="STT">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    
+                                    <!--gọi Command và truyền parametter-->
+                                    <Button Content="X" 
+                                            Command="{Binding DeleteCommand}"
+                                            CommandParameter="{Binding DataContext}"></Button>
+                                    <TextBlock Text="{Binding Stt}"></TextBlock>
+                                </StackPanel>
+                               
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Name">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Name}"></TextBlock>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Mail">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Mail}"></TextBlock>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <TextBox></TextBox>
+        <StackPanel Name="stpUser">           
+            <TextBlock Text="Stt:  "></TextBlock>
+            <TextBox Name="txtStt" Text="{Binding SelectedItem.Stt ,ElementName=lsvMain ,Mode=OneWay}"></TextBox>
+           
+            <TextBlock Text="Name:  "></TextBlock>
+            <TextBox Name="txtName" Text="{Binding SelectedItem.Name ,ElementName=lsvMain ,Mode=OneWay}"></TextBox>
+           
+            <TextBlock Text="Mail:  "></TextBlock>
+            <TextBox Name="txtMail" Text="{Binding SelectedItem.Mail ,ElementName=lsvMain ,Mode=OneWay}"></TextBox>
+          
+        </StackPanel>
+       
+
+        <StackPanel Orientation="Horizontal">
+            
+            <!--Truyền qua bằng cả stackpanel để duyệt qua lấy dữu liệu-->
+            <Button Content="Thêm" Command="{Binding AddCommand}"
+                    CommandParameter="{Binding Children, ElementName=stpUser}"></Button>
+            
+            <Button Content="Sửa"></Button>
+            
+            <Button Content="Xóa" 
+                    Command="{Binding DeleteCommand}"
+                    CommandParameter="{Binding SelectedItem, ElementName=lsvMain}"></Button>
+        </StackPanel>
+    </StackPanel>
+</Window>

@@ -1,0 +1,300 @@
+﻿<UserControl x:Class="DesignPrism_WPF.User_Control.HomeFrameUs"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            
+             mc:Ignorable="d" 
+             
+            xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+            xmlns:uc="clr-namespace:DesignPrism_WPF.User_Control"
+            xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+              xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" >
+                <Grid >
+                    <Grid.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="BorderBrush" Value="Blue"></Setter>
+                            <Setter Property="BorderThickness" Value="0.5"></Setter>
+                        </Style>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                            <Setter Property="Margin" Value="4"></Setter>
+                        </Style>
+                    </Grid.Resources>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition ></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="3*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Border Grid.Row="0" Grid.Column="0">
+                        <TextBlock Text="開始日"></TextBlock>
+                    </Border>
+                    <Border Grid.Row="0" Grid.Column="1">
+                        <TextBlock Text="{Binding firstDay , Mode=Default}" ></TextBlock>
+                    </Border>
+                    <Border Grid.Row="0" Grid.Column="2">
+                        <TextBlock Text="検査長"></TextBlock>
+                    </Border>
+                    <Border Grid.Row="0" Grid.Column="3">
+                        <TextBlock Text="{Binding DataDateTime}"></TextBlock>
+                    </Border>
+                    <Border Grid.Row="1" Grid.Column="0">
+                        <TextBlock Text="開始時"></TextBlock>
+                    </Border>
+                    <Border Grid.Row="1" Grid.Column="1">
+                        <TextBlock Text="{Binding firstClock , Mode=Default}"></TextBlock>
+                    </Border>
+                    <Border Grid.Row="1" Grid.Column="2">
+                        <TextBlock Text="NG 回数"></TextBlock>
+                    </Border>
+                    <Border Grid.Row="1" Grid.Column="3">
+                        <TextBlock Text="{Binding DataDateTime}"></TextBlock>
+                    </Border>
+
+                </Grid>
+
+            </Grid>
+            <Grid Grid.Column="1" >
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*"></ColumnDefinition>
+                <ColumnDefinition Width="5*"></ColumnDefinition>
+                <ColumnDefinition Width="0.7*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <!--Cột camera-->
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition ></ColumnDefinition>
+                        <ColumnDefinition  Width="auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <TextBlock Background="LightBlue" Width="5"></TextBlock>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBlock Text="表面" FontSize="18" VerticalAlignment="Center" Foreground="DeepSkyBlue"></TextBlock>
+                    </Grid>
+                    <Grid Grid.Column="2">
+                        <Button 
+                    Command="{Binding Checked}"
+                    Content="生画像" FontSize="16" Margin="0 0 15 0"></Button>
+                    </Grid>
+
+                </Grid>
+                <!--Màn hình camera trên-->
+                <Grid Grid.Row="1">
+                    <Grid>
+                        <Border BorderBrush="Blue" BorderThickness="0.5">
+                            <MediaElement Name="cameraDisplay_sau" Stretch="UniformToFill" />
+                        </Border>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition ></ColumnDefinition>
+                        <ColumnDefinition ></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Button Content="詳細表示" FontSize="16"></Button>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Button Content="最新表示" FontSize="16"></Button>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid>
+                        <Border BorderBrush="Blue" BorderThickness="0.5">
+                            <MediaElement Name="anhxemlaitren" Stretch="UniformToFill" />
+                        </Border>
+                    </Grid>
+                </Grid>
+
+                <Grid Grid.Row="2" >
+                    <Grid >
+                        <Border BorderBrush="Blue" BorderThickness="0.5">
+                            <!--<TextBlock Text="{Binding numberError}"></TextBlock>-->
+                            <TextBlock Text="5/20枚" FontSize="16" HorizontalAlignment="Center"></TextBlock>
+                        </Border>
+                    </Grid>
+
+                </Grid>
+
+            </Grid>
+            <Grid Grid.Column="2">
+                <Grid >
+                    <Grid.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="BorderBrush" Value="Blue"></Setter>
+                            <Setter Property="BorderThickness" Value="0.5"></Setter>
+                        </Style>
+                        <Style TargetType="Button">
+
+                        </Style>
+                    </Grid.Resources>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition ></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Border Grid.Row="0" >
+                        <Button>
+                            <materialDesign:PackIcon Kind="ArrowUpThin" FontSize="20"/>
+                        </Button>
+                    </Border>
+                    <Border Grid.Row="1">
+                        <Button>
+                            <materialDesign:PackIcon Kind="ArrowDownThin" FontSize="20"/>
+                        </Button>
+                    </Border>
+
+
+                </Grid>
+            </Grid>
+
+        </Grid>
+        <!--Phần quản lý camera dưới-->
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*"></ColumnDefinition>
+                <ColumnDefinition Width="5*"></ColumnDefinition>
+                <ColumnDefinition Width="0.7*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <!--Cột camera-->
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition ></ColumnDefinition>
+                        <ColumnDefinition  Width="auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <TextBlock Background="LightBlue" Width="5"></TextBlock>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBlock Text="裏面" FontSize="18" VerticalAlignment="Center" Foreground="DeepSkyBlue"></TextBlock>
+                    </Grid>
+                    <Grid Grid.Column="2">
+                        <Button  Content="生画像" FontSize="16"></Button>
+                    </Grid>
+
+                </Grid>
+                <!--Màn hình camera trên-->
+                <Grid Grid.Row="1">
+                    <Grid>
+                        <Border BorderBrush="Blue" BorderThickness="0.5">
+                            <MediaElement Name="camsau" Stretch="UniformToFill" />
+                        </Border>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition ></ColumnDefinition>
+                        <ColumnDefinition ></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Button Content="詳細表示" FontSize="16"></Button>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Button Content="最新表示" FontSize="16"></Button>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid>
+                        <Border BorderBrush="Blue" BorderThickness="0.5">
+                            <MediaElement Name="ãnhemlaiduoi" Stretch="UniformToFill" />
+                        </Border>
+                    </Grid>
+                </Grid>
+
+                <Grid Grid.Row="2" >
+                    <Grid >
+                        <Border BorderBrush="Blue" BorderThickness="0.5">
+                            <!--<TextBlock Text="{Binding numberError}"></TextBlock>-->
+                            <TextBlock Text="5/20枚" FontSize="16" HorizontalAlignment="Center"></TextBlock>
+                        </Border>
+                    </Grid>
+
+                </Grid>
+
+            </Grid>
+            <Grid Grid.Column="2">
+                <Grid >
+                    <Grid.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="BorderBrush" Value="Blue"></Setter>
+                            <Setter Property="BorderThickness" Value="0.5"></Setter>
+                        </Style>
+                        <Style TargetType="Button">
+
+                        </Style>
+                    </Grid.Resources>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition ></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Border Grid.Row="0" >
+                        <Button>
+                            <materialDesign:PackIcon Kind="ArrowUpThin" FontSize="20"/>
+                        </Button>
+                    </Border>
+                    <Border Grid.Row="1">
+                        <Button>
+                            <materialDesign:PackIcon Kind="ArrowDownThin" FontSize="20"/>
+                        </Button>
+                    </Border>
+
+
+                </Grid>
+            </Grid>
+
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,111 @@
+﻿<Window x:Class="_19.TreeView_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:self="clr-namespace:_19.TreeView_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="525">
+    <StackPanel>       
+        <!--Lever 1: add tay-->
+        <TreeView>
+            <TreeViewItem Header="Level 1" IsExpanded="True">
+                <TreeViewItem Header="Level 1.1"></TreeViewItem>
+                <TreeViewItem Header="Level 1.2" IsExpanded="True">
+                    <TreeViewItem Header="Level 2.1"></TreeViewItem>
+                    <TreeViewItem Header="Level 2.2"  IsExpanded="True">
+                        <TreeViewItem Header="Level 2.2.1"></TreeViewItem>
+                        <TreeViewItem Header="Level 2.2.2"></TreeViewItem>
+                        <TreeViewItem Header="Level 2.2.3"></TreeViewItem>
+                    </TreeViewItem>
+                    <TreeViewItem Header="Level 2.3"></TreeViewItem>
+                </TreeViewItem>
+            </TreeViewItem>    
+            <TreeViewItem Header="Level 2"></TreeViewItem>
+            
+            <!--Level 2 Add tay kèm theo chèn ảnh-->
+        </TreeView>
+        <TreeView>
+            <TreeViewItem IsExpanded="True">
+                <TreeViewItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="20" Stretch="Uniform" Source="/picture/translate.jpg" Margin="0 0 5 0"></Image>
+                        <TextBlock Text="level 1"></TextBlock>
+                    </StackPanel>
+                </TreeViewItem.Header>
+                <TreeViewItem>
+                    <TreeViewItem.Header>
+                        <TextBlock Text="Level 1.1" Foreground="Blue"></TextBlock>
+                    </TreeViewItem.Header>
+                </TreeViewItem>
+                <TreeViewItem  IsExpanded="True">
+                    <TreeViewItem.Header>
+                        <WrapPanel>
+                            <Image  Width="20" Stretch="Uniform" Source="/picture/translate.jpg" Margin="0 0 5 0"></Image>
+                            <TextBlock Text="Level 1.2" Foreground="Blue"></TextBlock>
+                        </WrapPanel>                       
+                    </TreeViewItem.Header>
+                    <TreeViewItem >
+                        <TreeViewItem.Header>
+                            <TextBlock Text="level 1.2.1" Foreground="Green" FontFamily="Bold" Margin="20 0 0 0"></TextBlock>
+                        </TreeViewItem.Header>
+                    </TreeViewItem>
+                    <TreeViewItem >
+                        <TreeViewItem.Header>
+                            <TextBlock Text="level 1.2.2" Foreground="Green" FontFamily="Bold" Margin="20 0 0 0"></TextBlock>
+                        </TreeViewItem.Header>
+                    </TreeViewItem>
+                </TreeViewItem>
+                <TreeViewItem IsExpanded="True">
+                    <TreeViewItem.Header>
+                        <WrapPanel>
+                            <Rectangle Width="20" Height="10" Fill="Blue" Margin="0 0 5 0"></Rectangle>
+                            <TextBlock Text="Level 1.3" Foreground="Blue"></TextBlock>
+                        </WrapPanel>
+                    </TreeViewItem.Header>
+                </TreeViewItem>
+            </TreeViewItem>
+        </TreeView>
+        
+        <!--Level 3 add treeView + Binding-->
+        <TreeView Name="trvMain">
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate DataType="{x:Type self:MenuItem}" ItemsSource="{Binding Items}">
+                    <TextBlock Text="{Binding Title}"></TextBlock>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
+        
+        <!--Level 4 + dùng thêm Resource-->
+        <TreeView Name="trvFamily">
+            <TreeView.Resources>
+                <HierarchicalDataTemplate DataType ="{x:Type self:Family}" ItemsSource="{Binding Member}">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="20" Stretch="Uniform" Source="/picture/translate.jpg" Margin="0 0 5 0"></Image>
+                        <TextBlock Text="{Binding Name}"></TextBlock>
+                        <TextBlock Text="[" Foreground = "Blue"/>
+                        <TextBlock Text="{Binding Member.Count}" Foreground="Blue"/>
+                        <TextBlock Text="]" Foreground = "Blue"/>
+                    </StackPanel>
+                </HierarchicalDataTemplate>
+
+
+                <DataTemplate DataType="{x:Type self:FamilyMember}">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="20" Stretch="Uniform" Source="/picture/isConnected.jpg" Margin="0 0 5 0"></Image>
+                        <TextBlock Text="{Binding Name}"></TextBlock>
+                        <TextBlock Text="(" Foreground = "Green"/>
+                        <TextBlock Text="{Binding Member.Count}" Foreground="Blue"/>
+                        <TextBlock Text="years)" Foreground = "Green"/>
+                    </StackPanel>
+                    
+                </DataTemplate>
+            </TreeView.Resources>
+
+
+        </TreeView>
+        
+        
+        
+    </StackPanel>
+</Window>

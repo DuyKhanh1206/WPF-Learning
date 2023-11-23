@@ -1,0 +1,92 @@
+﻿<Window x:Class="_16.Combobox_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_16.Combobox_WPF"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        
+        <!--Combobox lever 1:-->
+        
+        <ComboBox x:Name="cbbName"  VerticalAlignment="Top">
+            <WrapPanel>
+                <CheckBox></CheckBox>
+                <Button Content="value1"/>
+            </WrapPanel>
+            <WrapPanel>
+                <CheckBox></CheckBox>
+                <Button Content="value2"/>
+            </WrapPanel>
+            <WrapPanel>
+                <CheckBox></CheckBox>
+                <Button Content="value3"/>
+            </WrapPanel>
+            <WrapPanel>
+                <CheckBox></CheckBox>
+                <Button Content="value4"/>
+            </WrapPanel>
+            <WrapPanel>
+                <CheckBox></CheckBox>
+                <Button Content="value5"/>
+            </WrapPanel>
+        </ComboBox>
+
+
+
+        <ComboBox x:Name="cbbLstStr">
+           
+
+        </ComboBox>
+        <!--Combobox lever 2: Set template cho từng combobox -->
+        <ComboBox x:Name="cbb2" Width="525">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Width="500">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="{Binding Name}"></TextBlock>
+                        <TextBlock Grid.Column="1" Text="{Binding Price}"></TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+            
+        </ComboBox>
+
+        <!--Combobox lấy ra danh sách bảng màu-->
+        
+        <ComboBox x:Name="cbb3">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Fill="{Binding Name}" Margin="0.2 0.2 5 0.2"  Width="26"></Rectangle>
+                        <TextBlock Text="{Binding Name}"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+            
+        </ComboBox>
+
+        <!--Combobox lấy ra danh sách Font -->
+        <ComboBox x:Name="cbb4"  Width="525" ItemsSource="{x:Static Fonts.SystemFontFamilies}">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Width="489">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>  
+                        <TextBlock Grid.Column="0" Text="{Binding}" Margin="5 0.2 5 0.2" ></TextBlock>
+                        <TextBlock Grid.Column="1" Text="Nguyễn Hải Long" FontFamily="{Binding}"></TextBlock>
+                       
+                    </Grid>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+
+        </ComboBox>
+    </StackPanel>
+</Window>

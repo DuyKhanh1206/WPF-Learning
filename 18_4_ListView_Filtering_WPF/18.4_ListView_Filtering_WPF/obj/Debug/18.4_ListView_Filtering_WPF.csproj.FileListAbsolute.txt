@@ -1,0 +1,14 @@
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.4_ListView_Filtering_WPF\18.4_ListView_Filtering_WPF\bin\Debug\18.4_ListView_Filtering_WPF.exe.config
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.4_ListView_Filtering_WPF\18.4_ListView_Filtering_WPF\bin\Debug\18.4_ListView_Filtering_WPF.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.4_ListView_Filtering_WPF\18.4_ListView_Filtering_WPF\bin\Debug\18.4_ListView_Filtering_WPF.pdb
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.4_ListView_Filtering_WPF\18.4_ListView_Filtering_WPF\obj\Debug\18.4_ListView_Filtering_WPF.csprojResolveAssemblyReference.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.4_ListView_Filtering_WPF\18.4_ListView_Filtering_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.4_ListView_Filtering_WPF\18.4_ListView_Filtering_WPF\obj\Debug\App.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.4_ListView_Filtering_WPF\18.4_ListView_Filtering_WPF\obj\Debug\18.4_ListView_Filtering_WPF_MarkupCompile.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.4_ListView_Filtering_WPF\18.4_ListView_Filtering_WPF\obj\Debug\18.4_ListView_Filtering_WPF_MarkupCompile.lref
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.4_ListView_Filtering_WPF\18.4_ListView_Filtering_WPF\obj\Debug\MainWindow.baml
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.4_ListView_Filtering_WPF\18.4_ListView_Filtering_WPF\obj\Debug\18.4_ListView_Filtering_WPF.g.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.4_ListView_Filtering_WPF\18.4_ListView_Filtering_WPF\obj\Debug\_18._4_ListView_Filtering_WPF.Properties.Resources.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.4_ListView_Filtering_WPF\18.4_ListView_Filtering_WPF\obj\Debug\18.4_ListView_Filtering_WPF.csproj.GenerateResource.Cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.4_ListView_Filtering_WPF\18.4_ListView_Filtering_WPF\obj\Debug\18.4_ListView_Filtering_WPF.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\18.4_ListView_Filtering_WPF\18.4_ListView_Filtering_WPF\obj\Debug\18.4_ListView_Filtering_WPF.pdb

@@ -1,0 +1,483 @@
+﻿<Window x:Class="Design_Basic_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Design_Basic_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="543.75" Width="556.75">
+
+    <Window.Resources>
+        
+    </Window.Resources>
+    <Grid >
+        <Grid.ColumnDefinitions >
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <!--Vế bên trái-->
+        <Grid Grid.Column="0" Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height=" 180"></RowDefinition>
+                <RowDefinition Height=" 180"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+            </Grid.RowDefinitions>
+            <!--hàng 1-->
+            <Grid Grid.Row="0">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <TextBlock Background="LightBlue" Width="5"></TextBlock>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <TextBox Text="HT date Time"></TextBox>
+                </Grid>
+                <Grid Grid.Column="2">
+                    <Button Content="gì gì đossss" Background="LightBlue"></Button>
+                </Grid>
+                <Grid Grid.Column="3">
+                    <TextBlock Text="HT thông tin"></TextBlock>
+                </Grid>
+                <Grid Grid.Column="4">
+                    <Grid Width="150" Height="70" HorizontalAlignment="Right" >
+                        <ScrollViewer VerticalScrollBarVisibility="Auto">
+                            <TextBlock TextWrapping="Wrap">  
+                                Computer Said :Hello World
+                                Computer Said :Hello World
+                                Computer Said :Hello World
+                                Computer Said :Hello World
+                                Computer Said :Hello World
+                            </TextBlock>
+                        </ScrollViewer>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Column="5">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <TextBlock>画面１</TextBlock>
+                                </Grid>
+                                <Grid Grid.Column="1">
+                                    <TextBlock>biểu đồ 1</TextBlock>
+                                </Grid>
+                            </Grid>
+
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <TextBlock>画面2</TextBlock>
+                                </Grid>
+                                <Grid Grid.Column="1">
+                                    <TextBlock>biểu đồ 2</TextBlock>
+                                </Grid>
+                            </Grid>
+
+                        </Grid>
+
+                    </Grid>
+                </Grid>
+
+            </Grid>
+
+            <!--Hàng 2 có thể tạo hàng cột bằng 2 cách--><!-- có cách border trong code Grid_button_design_basic\Grid_button_design_basic.sln-->
+
+            <Grid Grid.Row="1">
+                <Grid>
+                    <Border BorderBrush="LightBlue" BorderThickness="4">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition ></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Row="0" Grid.Column="0">
+                                <TextBlock Text="ngày tháng1"></TextBlock>
+                            </Grid>
+                            <Grid Grid.Row="0" Grid.Column="1">
+                                <TextBox Text="{Binding DataDateTime}"></TextBox>
+                            </Grid>
+                            <Grid Grid.Row="0" Grid.Column="2">
+                                <TextBlock Text="độ dài1"></TextBlock>
+                            </Grid>
+                            <Grid Grid.Row="0" Grid.Column="3">
+                                <TextBox Text="load lên1"></TextBox>
+                            </Grid>
+                            <Grid Grid.Row="1" Grid.Column="0">
+                                <TextBlock Text="ngày tháng2"></TextBlock>
+                            </Grid>
+                            <Grid Grid.Row="1" Grid.Column="1">
+                                <TextBox Text="load lên2"></TextBox>
+                            </Grid>
+                            <Grid Grid.Row="1" Grid.Column="2">
+                                <TextBlock Text="độ dài2"></TextBlock>
+                            </Grid>
+                            <Grid Grid.Row="1" Grid.Column="3">
+                                <TextBox Text="load lên2"></TextBox>
+                            </Grid>
+
+                        </Grid>
+                    </Border>
+                </Grid>
+            </Grid>
+
+            <!--Hàng 3 nàm hình trên-->
+            <Grid Grid.Row="2">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition  Width="250" ></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <!--<bên trái-->
+                    <Grid Grid.Column="0" Margin="2">
+                        <Border BorderBrush="LightBlue" BorderThickness="2">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"></RowDefinition>
+                                    <RowDefinition ></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <DockPanel>
+                                        <TextBlock DockPanel.Dock="Left" Text="camera trên"></TextBlock>
+                                        <Button Content="gì đó" DockPanel.Dock="Right"></Button>
+                                    </DockPanel>
+                                </Grid>
+                                <Grid Grid.Row="1" >
+                                    <Grid>
+                                        <Border BorderBrush="Blue" BorderThickness="0.5">
+                                            <MediaElement Name="cameraDisplay_sau" Stretch="UniformToFill" />
+                                        </Border>
+                                    </Grid>
+
+                                </Grid>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                    <!--Cột phải-->
+                    <Grid Grid.Column="1" Margin="2">
+                        <Border BorderBrush="LightBlue" BorderThickness="2">
+                            <DockPanel>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition ></RowDefinition>
+                                        <RowDefinition Height="auto"></RowDefinition>
+
+                                    </Grid.RowDefinitions>
+                                    <Grid Grid.Row="0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="150"></ColumnDefinition>
+                                            <ColumnDefinition Width="50"></ColumnDefinition>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid Grid.Column="0">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="25"></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+
+                                            </Grid.RowDefinitions>
+                                            <Grid Grid.Row="0">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="150"></ColumnDefinition>
+                                                    <ColumnDefinition Width="50"></ColumnDefinition>
+                                                </Grid.ColumnDefinitions>
+                                                <Grid Grid.Column="0">
+                                                    <Button Content="btn1" Background="LightBlue"></Button>
+                                                </Grid>
+                                                <Grid Grid.Column="1">
+                                                    <Button Content="btn2" Background="LightBlue"></Button>
+                                                </Grid>
+                                            </Grid>
+
+                                            <Grid Grid.Row="1">
+                                                <Button Background="GhostWhite"></Button>
+
+                                            </Grid>
+                                        </Grid>
+
+                                        <!--chèn biểu tượng mũi tên lên xuống vào button-->
+                                        <Grid Grid.Column="1">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition></RowDefinition>
+                                                <RowDefinition></RowDefinition>
+                                            </Grid.RowDefinitions>
+                                            <Grid Grid.Row="0">
+                                                <Button Content="btn+"></Button>
+                                            </Grid>
+                                            <Grid Grid.Row="1">
+                                                <Button Content="btn-"></Button>
+                                            </Grid>
+                                        </Grid>
+                                    </Grid>
+                                    <Grid Grid.Row="1">
+                                        <TextBlock Text=" 5/20 cái" DockPanel.Dock="Bottom" HorizontalAlignment="Center"></TextBlock>
+                                    </Grid>
+                                </Grid>
+
+                            </DockPanel>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </Grid>
+
+            <Grid Grid.Row="3" Margin="0 5 0 0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition  Width="250" ></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <!--<bên trái-->
+                    <Grid Grid.Column="0" Margin="2">
+                        <Border BorderBrush="LightBlue" BorderThickness="2">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"></RowDefinition>
+                                    <RowDefinition ></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <DockPanel>
+                                        <TextBlock DockPanel.Dock="Left" Text="camera dưới"></TextBlock>
+                                        <Button Content="gì đó" DockPanel.Dock="Right"></Button>
+                                    </DockPanel>
+                                </Grid>
+                                <Grid Grid.Row="1" >
+                                    <Grid>
+                                        <Border BorderBrush="Blue" BorderThickness="0.5">
+                                            <MediaElement Name="cameraDisplay_trước" Stretch="UniformToFill" />
+                                        </Border>
+                                    </Grid>
+
+                                </Grid>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                    <!--Cột phải-->
+                    <Grid Grid.Column="1" Margin="2">
+                        <Border BorderBrush="LightBlue" BorderThickness="2">
+                        <DockPanel>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition ></RowDefinition>
+                                    <RowDefinition Height="auto"></RowDefinition>
+
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="150"></ColumnDefinition>
+                                        <ColumnDefinition Width="50"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Grid.Column="0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="25"></RowDefinition>
+                                            <RowDefinition></RowDefinition>
+
+                                        </Grid.RowDefinitions>
+                                        <Grid Grid.Row="0">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="150"></ColumnDefinition>
+                                                <ColumnDefinition Width="50"></ColumnDefinition>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid Grid.Column="0">
+                                                <Button Content="btn1" Background="LightBlue"></Button>
+                                            </Grid>
+                                            <Grid Grid.Column="1">
+                                                <Button Content="btn2" Background="LightBlue"></Button>
+                                            </Grid>
+                                        </Grid>
+
+                                        <Grid Grid.Row="1">
+                                            <Button Background="GhostWhite"></Button>
+
+                                        </Grid>
+                                    </Grid>
+
+                                    <!--chèn biểu tượng mũi tên lên xuống vào button-->
+                                    <Grid Grid.Column="1">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition></RowDefinition>
+                                            <RowDefinition></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                        <Grid Grid.Row="0">
+                                            <Button Content="btn+"></Button>
+                                        </Grid>
+                                        <Grid Grid.Row="1">
+                                            <Button Content="btn-"></Button>
+                                        </Grid>
+                                    </Grid>
+                                </Grid>
+                                <Grid Grid.Row="1">
+                                    <TextBlock Text=" 5/20 cái" DockPanel.Dock="Bottom" HorizontalAlignment="Center"></TextBlock>
+                                </Grid>
+                            </Grid>
+
+                        </DockPanel>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </Grid>
+            
+            <Grid Grid.Row="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Rectangle Width="25" Height="15" Fill="LightBlue" HorizontalAlignment="Left"></Rectangle>
+                </Grid>
+                <Grid Grid.Column="1" VerticalAlignment="Center" >
+                    <CheckBox></CheckBox>
+                </Grid>
+                <Grid Grid.Column="2">
+                    <RadioButton VerticalAlignment="Center" HorizontalAlignment="Left" ></RadioButton>
+                </Grid>
+                <Grid Grid.Column="3">
+                    <RadioButton VerticalAlignment="Center" HorizontalAlignment="Left" ></RadioButton>
+                </Grid>
+                <Grid Grid.Column="4">
+                    <TextBlock Text="thông tin thêm " VerticalAlignment="Center"></TextBlock>
+                </Grid>
+            </Grid>
+
+        </Grid>
+
+
+
+
+        <!--Vế bên phải-->
+        <Grid Grid.Column="1" Width="auto" HorizontalAlignment="Right" >
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Button >
+                        <WrapPanel>
+                            <Ellipse Width="15" Height="15" Fill="Green" Margin="0 0 5 0" ></Ellipse>
+                            <TextBlock Text="Khởi động"></TextBlock>
+
+                        </WrapPanel>
+                    </Button>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Button >
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <Ellipse Width="15" Height="15" Fill="Red" Margin="0 0  0 5" ></Ellipse>
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <TextBlock Text="Tắt máy"></TextBlock>
+                            </Grid>
+                        </Grid>
+                    </Button>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Button Content="ktra3"></Button>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Separator ></Separator>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Button Content="ktra1"></Button>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Button Content="ktra2"></Button>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Button Content="ktra3"></Button>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Separator ></Separator>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Button Content="ktra1"></Button>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Button Content="ktra2"></Button>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Button Content="ktra3"></Button>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Separator ></Separator>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Button Content="ktra1"></Button>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Button Content="ktra2"></Button>
+                </Grid>
+
+            </Grid>
+        </Grid>
+
+
+
+    </Grid>
+
+</Window>

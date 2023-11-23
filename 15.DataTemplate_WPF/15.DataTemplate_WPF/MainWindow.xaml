@@ -1,0 +1,32 @@
+﻿<Window x:Class="_15.DataTemplate_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_15.DataTemplate_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="525">
+    <StackPanel>
+        <StackPanel.Resources>
+            <!--Xây dựng data Complate-->
+            <ControlTemplate x:Key="Templatebtn">
+                <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <Image Source="C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\yatteimasu\Design_Start\translate.jpg"
+                               Width="150" Stretch="Uniform"></Image>
+                    <TextBlock Text ="{Binding}"></TextBlock>
+                </StackPanel>
+            </ControlTemplate>
+            
+                    <!--Style cho Button-->
+            <Style TargetType="Button">
+                <Setter Property="Height" Value="150"></Setter>
+            </Style>
+        </StackPanel.Resources>
+        
+        <Button x:Name="btnControl1" Template="{StaticResource Templatebtn}"></Button>
+        <Button x:Name="btnControl2" Template="{StaticResource Templatebtn}"></Button>
+        
+        <!--Click để binding data cho button Context tương ứng-->
+        <Button x:Name="btnControl3" Content="Click" FontSize="25" Click="btnControl3_Click"></Button>
+    </StackPanel>
+</Window>

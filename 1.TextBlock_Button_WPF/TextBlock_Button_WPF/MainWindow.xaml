@@ -1,0 +1,66 @@
+﻿<Window x:Class="TextBlock_Button_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextBlock_Button_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" VerticalAlignment="Center" HorizontalAlignment="Left">
+    <Grid>
+        <TextBlock x:Name="txbl1"
+                   Text="khanh jaju" 
+                   Foreground="Red" 
+                   FontSize="30"
+                   Width="470"
+                   Height="50"
+                   VerticalAlignment="Top"
+                   HorizontalAlignment="Left"
+                   TextWrapping="Wrap"
+                   >xin slsl a khanhs</TextBlock>
+        <TextBlock Text="hello"
+                   Foreground="Blue"
+                   FontSize="30"
+                   Width="80"
+                   Height="40"
+                   TextWrapping="Wrap"
+                   VerticalAlignment="Top"
+                   HorizontalAlignment="Right"
+                   ></TextBlock>
+        <TextBlock FontSize="30"
+                   Foreground="Blue"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Width="450"
+                   Height="50"
+                   ><Bold>Nguyễn</Bold>  <Bold><Italic>Duy</Italic></Bold> <Italic><Underline>Khánh</Underline></Italic> 
+            <Hyperlink RequestNavigate="Hyperlink_RequestNavigate"
+                       NavigateUri="https://fujita-group.dn-cloud.com/cgi-bin/dneo/dneo.cgi">:Link</Hyperlink>
+        <Span FontFamily="Timenewroman" FontSize="20"  Foreground="Red">Hải Long</Span>
+        </TextBlock>
+        
+        <TextBlock x:Name="txblChange" VerticalAlignment="Bottom" FontSize="30">22222</TextBlock>
+
+
+                
+
+
+        <Button x:Name="btnChange"
+                Content="Change"
+                FontSize="30"
+                Width="105"
+                Height="45"
+                VerticalAlignment="Top"
+                Foreground="Black"
+                Click="btnChange_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Red" Offset="1"></GradientStop>
+                    <GradientStop Color="Yellow" Offset="0"></GradientStop>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        
+       
+        
+    </Grid>
+</Window>

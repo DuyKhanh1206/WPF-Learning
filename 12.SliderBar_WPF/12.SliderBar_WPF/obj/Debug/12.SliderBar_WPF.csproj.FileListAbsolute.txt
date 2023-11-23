@@ -1,0 +1,13 @@
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\12.SliderBar_WPF\12.SliderBar_WPF\bin\Debug\12.SliderBar_WPF.exe.config
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\12.SliderBar_WPF\12.SliderBar_WPF\bin\Debug\12.SliderBar_WPF.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\12.SliderBar_WPF\12.SliderBar_WPF\bin\Debug\12.SliderBar_WPF.pdb
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\12.SliderBar_WPF\12.SliderBar_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\12.SliderBar_WPF\12.SliderBar_WPF\obj\Debug\App.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\12.SliderBar_WPF\12.SliderBar_WPF\obj\Debug\12.SliderBar_WPF_MarkupCompile.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\12.SliderBar_WPF\12.SliderBar_WPF\obj\Debug\12.SliderBar_WPF_MarkupCompile.lref
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\12.SliderBar_WPF\12.SliderBar_WPF\obj\Debug\MainWindow.baml
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\12.SliderBar_WPF\12.SliderBar_WPF\obj\Debug\12.SliderBar_WPF.g.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\12.SliderBar_WPF\12.SliderBar_WPF\obj\Debug\_12.SliderBar_WPF.Properties.Resources.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\12.SliderBar_WPF\12.SliderBar_WPF\obj\Debug\12.SliderBar_WPF.csproj.GenerateResource.Cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\12.SliderBar_WPF\12.SliderBar_WPF\obj\Debug\12.SliderBar_WPF.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\12.SliderBar_WPF\12.SliderBar_WPF\obj\Debug\12.SliderBar_WPF.pdb

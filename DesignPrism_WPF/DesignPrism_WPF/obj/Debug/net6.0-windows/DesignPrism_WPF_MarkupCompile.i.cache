@@ -1,0 +1,20 @@
+﻿DesignPrism_WPF
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\yatteimasu\CodeDesign\DesignPrism_WPF\DesignPrism_WPF\obj\Debug\net6.0-windows\
+DesignPrism_WPF
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\yatteimasu\CodeDesign\DesignPrism_WPF\DesignPrism_WPF\App.xaml
+9-397123240
+
+211429584655
+204-1144515165
+ResourceDictionnary\MainResource.xaml;User_Control\BarUs.xaml;User_Control\CheckConnectUs.xaml;User_Control\HeadUs.xaml;User_Control\HomeFrameUs.xaml;User_Control\PauseUs.xaml;Views\AllButtonUs.xaml;Views\Login.xaml;Views\MainWindow.xaml;
+
+True
+

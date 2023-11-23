@@ -1,0 +1,15 @@
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Hình_Nền_Mờ\Hình_Nền_Mờ\bin\Debug\Hình_Nền_Mờ.exe.config
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Hình_Nền_Mờ\Hình_Nền_Mờ\bin\Debug\Hình_Nền_Mờ.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Hình_Nền_Mờ\Hình_Nền_Mờ\bin\Debug\Hình_Nền_Mờ.pdb
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Hình_Nền_Mờ\Hình_Nền_Mờ\obj\Debug\Hình_Nền_Mờ.csproj.AssemblyReference.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Hình_Nền_Mờ\Hình_Nền_Mờ\obj\Debug\MainWindow.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Hình_Nền_Mờ\Hình_Nền_Mờ\obj\Debug\App.g.cs
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Hình_Nền_Mờ\Hình_Nền_Mờ\obj\Debug\Hình_Nền_Mờ_MarkupCompile.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Hình_Nền_Mờ\Hình_Nền_Mờ\obj\Debug\Hình_Nền_Mờ_MarkupCompile.lref
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Hình_Nền_Mờ\Hình_Nền_Mờ\obj\Debug\MainWindow.baml
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Hình_Nền_Mờ\Hình_Nền_Mờ\obj\Debug\Hình_Nền_Mờ.g.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Hình_Nền_Mờ\Hình_Nền_Mờ\obj\Debug\Hình_Nền_Mờ.Properties.Resources.resources
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Hình_Nền_Mờ\Hình_Nền_Mờ\obj\Debug\Hình_Nền_Mờ.csproj.GenerateResource.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Hình_Nền_Mờ\Hình_Nền_Mờ\obj\Debug\Hình_Nền_Mờ.csproj.CoreCompileInputs.cache
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Hình_Nền_Mờ\Hình_Nền_Mờ\obj\Debug\Hình_Nền_Mờ.exe
+C:\Users\k-nguyen\Documents\Visual Studio 2015\Projects\WPF_勉強\Hình_Nền_Mờ\Hình_Nền_Mờ\obj\Debug\Hình_Nền_Mờ.pdb

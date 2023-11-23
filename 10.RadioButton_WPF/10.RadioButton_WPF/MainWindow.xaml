@@ -1,0 +1,30 @@
+﻿<Window x:Class="_10.RadioButton_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_10.RadioButton_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <Border BorderThickness="3" BorderBrush="Black"  Margin="5" Visibility="Visible">
+                <StackPanel>
+
+                    <RadioButton Content="this is my number 1" IsChecked="True"></RadioButton>
+                    <RadioButton Content="this is my number 1"></RadioButton>
+                    <RadioButton Content="this is my number 1"></RadioButton>
+                </StackPanel>
+            </Border>
+            <Border BorderThickness="3" BorderBrush="Black"  Margin="5">
+                <StackPanel>
+
+                    <RadioButton Content="this is my number 1"></RadioButton>
+                    <RadioButton Content="this is my number 1" IsChecked="True"></RadioButton>
+                    <RadioButton Content="this is my number 1"></RadioButton>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+        
+    </Grid>
+</Window>
